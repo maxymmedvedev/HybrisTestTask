@@ -7,7 +7,7 @@ This is my implementation of a test task for Hybris Ciklum Hybris internship.
 - Connection to DB is via JDBC
 - Connection properties are stored in local.properties in resources directory
      and are loaded from classpath
-- By default database sevrer is hosted at AWS RDS, but database dump file is also sullpied 
+- By default database sevrer is hosted at AWS RDS, but database dump file is also sullpied
     in project scr/main/resources/MySQL
 - Project is built using Gradle
 
@@ -16,8 +16,10 @@ This is my implementation of a test task for Hybris Ciklum Hybris internship.
 By default all needed files are already created, database server is hosted and running.
 To use application, simply go to **Hybris_Test_build\bin** and run file suitable for your operating system (*Hybris_Test* for Linux, *Hybris_Test.bat* for Windows), and follow the instructions
 
-If you want to build application by yoursefl, you may use Gradle wrapper (gradlew, gradlew.bat)
-from project root directory 
+**Please note:** *according to the technical task, you need to enter password in order to execute some of the application functions*. **The password is "WeakPassword"**
+
+If you want to build application by yourself, you may use Gradle wrapper (gradlew, gradlew.bat)
+from project root directory
 
 #### Database manipulation
 As stated, by defatult MySQL database used for this project is hosted in cloud services, and all data required for connection is stored in **src/main/resources/local.propeties** file
